@@ -65,7 +65,7 @@
             display: none; /* Hidden by default */
         }
     </style>
-<link rel="modulepreload" href="/auto-abloop-e6c7e8734b467c15.js" crossorigin="anonymous" integrity="sha384-iJfd2ARKe8iFSkIZbIUg+P7kfcno1rzNgjVSof9z5QzCcXOCPfZf9/YqwRF237BW"><link rel="preload" href="/auto-abloop-e6c7e8734b467c15_bg.wasm" crossorigin="anonymous" integrity="sha384-s4y4YrCHg0UD4lF/qm3Kmss7f9I0Iq4h49tGadNQRI5GjOSfuWHqWKhvQrGbVzTp" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/auto-abloop-c7798897e593d283.js" crossorigin="anonymous" integrity="sha384-M7wGFNPkOc3hb3GgjLRoaTujm1TZ1XTKsslaoT5qjnFCfdwfjtIS1/OrGhZvf6xa"><link rel="preload" href="/auto-abloop-c7798897e593d283_bg.wasm" crossorigin="anonymous" integrity="sha384-pNdiSLJBLiAb5Jdp6K+qipKBgPb/hQD7RxbA3NCHiH59C0iU68BYxiVKsNNHo8KQ" as="fetch" type="application/wasm"></head>
 
 <body>
     <!-- Canvas for eframe/egui -->
@@ -87,8 +87,8 @@
     <!-- But we need to link the WASM. -->
     
 <script type="module">
-import init, * as bindings from '/auto-abloop-e6c7e8734b467c15.js';
-const wasm = await init({ module_or_path: '/auto-abloop-e6c7e8734b467c15_bg.wasm' });
+import init, * as bindings from '/auto-abloop-c7798897e593d283.js';
+const wasm = await init({ module_or_path: '/auto-abloop-c7798897e593d283_bg.wasm' });
 
 
 window.wasmBindings = bindings;
